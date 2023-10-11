@@ -18,6 +18,14 @@ import LifecycleA from './components/LifecycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import Error from './components/Error';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+import ClickCounterTwo from './components/ClickCounterTwo';
 
 
 // import './appStyles.css'
@@ -25,7 +33,19 @@ import RefsDemo from './components/RefsDemo';
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <ClickCounterTwo />
+      {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
+      {/* <Error > */}
+        {/* <Hero heroName="Batman" />
+        <Hero heroName="Batman" />
+        <Hero heroName="Joker" /> */}
+      {/* </Error> */}
+
+      {/* <PortalDemo />       */}
+      {/* <FRParentInput /> */}
+      {/* <FocusInput /> */}
+      {/* <RefsDemo /> */}
       {/* <Table /> */}
       {/* <FragmentDemo /> */}
       {/* <LifecycleA /> */}
