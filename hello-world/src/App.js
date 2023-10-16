@@ -26,6 +26,13 @@ import Error from './components/Error';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import ClickCounterTwo from './components/ClickCounterTwo';
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
+import ClassCounter from './components/ClassCounter';
+import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 
 
 // import './appStyles.css'
@@ -33,7 +40,14 @@ import ClickCounterTwo from './components/ClickCounterTwo';
 function App() {
   return (
     <div className="App">
-      <ClickCounterTwo />
+      <HookCounterFour />
+      {/* <HookCounterThree /> */}
+      {/* <HookCounterTwo /> */}
+      {/* <HookCounter /> */}
+      {/* <ClassCounter /> */}
+      {/* <PostForm /> */}
+      {/* <PostList /> */}
+      {/* <ClickCounterTwo /> */}
       {/* <ClickCounter /> */}
       {/* <HoverCounter /> */}
       {/* <Error > */}
