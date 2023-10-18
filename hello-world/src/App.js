@@ -33,6 +33,8 @@ import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterFour from './components/HookCounterFour';
+import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 
 
 // import './appStyles.css'
@@ -40,7 +42,10 @@ import HookCounterFour from './components/HookCounterFour';
 function App() {
   return (
     <div className="App">
-      <HookCounterFour />
+      
+      {/* <MouseContainer/> */}
+      {/* <HookMouse /> */}
+      {/* <HookCounterFour /> */}
       {/* <HookCounterThree /> */}
       {/* <HookCounterTwo /> */}
       {/* <HookCounter /> */}
